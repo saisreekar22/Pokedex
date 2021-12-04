@@ -11,7 +11,7 @@ public class SuperWindow extends JFrame {
 
 	public SuperWindow(boolean flag) {
 		setLayout(null);
-		setIconImage(Toolkit.getDefaultToolkit().getImage("assets/icon.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("assets/logo.png"));
 		getContentPane().setBackground(Color.decode("#9ff79f"));
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		try {

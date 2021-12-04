@@ -259,6 +259,10 @@ public class UserMenu extends SuperWindow implements ActionListener {
 				pokeuser.remove(index);
 				createTable();
 			}
+			
+		}
+		else if (e.getSource()==about) {
+			new About();
 		}
 	}
 }
